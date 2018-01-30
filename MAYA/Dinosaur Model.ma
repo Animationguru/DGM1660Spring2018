@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Dinosaur Model.ma
-//Last modified: Thu, Jan 25, 2018 11:45:25 AM
+//Last modified: Thu, Jan 25, 2018 12:02:32 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "0621EDE2-48DD-C143-2C64-BD8D61DDBA2C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -13.489904470430957 3.6354485184091345 -47.104998511684499 ;
-	setAttr ".r" -type "double3" 361.46164726937997 -880.6000000003811 0 ;
+	setAttr ".t" -type "double3" 23.500028059267912 8.1706409808549161 -37.753225679546205 ;
+	setAttr ".r" -type "double3" 356.06164726932576 -932.60000000019625 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "321C6799-42DE-363E-5EC3-F08A48088545";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 52.164536300423691;
+	setAttr ".coi" 43.156343755390139;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
